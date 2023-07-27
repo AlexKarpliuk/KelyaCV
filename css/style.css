@@ -1,0 +1,228 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    height: 1319px;
+    width: 1200px;
+    margin: auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+/* .about-me-profession{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(218, 11, 11);
+} */
+img{
+    border-radius: 180px;
+    margin-left: 32px;
+}
+.main-section{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    height: 1319px;
+    background-color: #f9f9f9;
+    margin: 40px auto;
+}
+.main-right{
+padding: 100px 100px;
+width: 520px;
+}
+.about-me-section{
+	display: flex;
+	flex-direction: column;
+    width: 400px;
+    height: 230px;
+    left: 498px;
+    top: 142px;
+    margin-bottom: 60px;
+}
+.about-me-profession{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 17px;
+    margin: 0 0 20px 0;
+    color: black;
+}
+/* main */
+.name{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 430px;
+height: 100px;
+}
+.qr-item img{
+	width: 80px;
+	border-radius: 10px;
+}
+.main-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: black;
+    margin-bottom: 25px;
+}
+.main-right-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.about-me-description{
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+/* my proj. */
+.my-projects{
+    margin-bottom: 40px;
+}
+.projects-links{
+padding: 0 0 0 15px;
+}
+.my-proj-item{
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+.my-proj-text{
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.my-proj-breakets{
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+.color-links{
+    color: #595959;
+}
+/* work exp */
+.my-work-exp{
+margin-bottom: 30px;
+}
+.work-exp-company{
+color: #FB6D3A;
+padding: 0 0 10px 0;
+}
+.comp-position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+.period-color{
+    color: #A8A8A8;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.line{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+    margin: 0 5px;
+}
+.work-exp-item-list{
+    padding: 0 0 0 20px;
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* side bar */
+.sidebar{
+    border-top-right-radius: 180px;
+    background-color: #1E2939;
+    width: 370px;
+    padding-top: 40px;
+
+}
+/* contacts */
+.contacts{
+    margin: 50px 0 47px 40px;
+}
+.info{
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+}
+.contacts-ce{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-right: 5px;
+}
+.contacts-links{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565E6A;
+}
+/* learning */
+.learning{
+    margin: 50px 0 45px 40px;
+}
+.sidebar-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.learning-li{
+    padding: 0 0 0 17px;
+}
+.learning-li-items{
+    color: tomato;
+}
+.fordot{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+/* soft */
+.soft-skill{
+    margin: 50px 0 0 40px;
+}
+.soft-li{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+padding: 0 0 0 17px;
+}
+.soft-li-item{
+    color: tomato;
+}
+.fordot2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
